@@ -1,0 +1,197 @@
+
+Artificial Intelligence
+
+Artificial Intelligence is a branch of computer science that focuses on building intelligent machines capable of performing tasks that traditionally require human intelligence. These tasks include reasoning, problem-solving, decision-making, language understanding, visual perception, and learning from experience. AI systems use algorithms, data, and computational models to identify patterns and produce intelligent outputs.
+
+History of Artificial Intelligence
+
+The concept of Artificial Intelligence emerged as researchers began exploring whether machines could simulate human reasoning and intelligence. Early AI systems relied heavily on manually defined rules and symbolic logic. Over time, improvements in computing power, mathematical techniques, and data availability enabled the development of machine learning, neural networks, and modern generative AI applications.
+
+Types of Artificial Intelligence
+
+Artificial Intelligence can be classified into different categories based on its capabilities. Narrow AI is designed to perform specific tasks such as speech recognition, image classification, and recommendation generation. General AI refers to a theoretical system capable of performing a wide range of intellectual tasks similar to humans. Superintelligence describes a hypothetical intelligence that exceeds human capabilities across multiple domains.
+
+Applications of Artificial Intelligence
+
+Artificial Intelligence is widely used across industries such as healthcare, finance, manufacturing, education, transportation, and telecommunications. Healthcare applications include medical image analysis and clinical decision support. Financial institutions use AI for fraud detection and risk assessment. Manufacturing organizations use intelligent systems for predictive maintenance, quality inspection, and production optimization.
+
+Machine Learning
+
+Machine Learning is a subset of Artificial Intelligence that enables computers to learn patterns from data without being explicitly programmed for every individual task. Machine learning algorithms analyze historical information, identify relationships, and use those relationships to make predictions or decisions. The quality of the training data significantly influences the accuracy and reliability of machine learning models.
+
+Supervised Learning
+
+Supervised Learning is a machine learning approach in which a model learns from labeled training data. Each training example contains input information and its corresponding expected output. The algorithm learns the relationship between inputs and outputs and applies that knowledge to unseen data. Classification and regression are two common supervised learning tasks.
+
+Unsupervised Learning
+
+Unsupervised Learning is a machine learning technique that identifies hidden patterns and structures in data without requiring predefined labels. Clustering algorithms group similar observations, while dimensionality reduction techniques simplify complex datasets. Unsupervised learning is useful for customer segmentation, anomaly detection, exploratory data analysis, and discovering previously unknown relationships.
+
+Reinforcement Learning
+
+Reinforcement Learning is a machine learning approach in which an agent learns by interacting with an environment. The agent performs actions, receives rewards or penalties, and gradually learns a strategy that maximizes cumulative reward. Reinforcement learning is used in robotics, autonomous navigation, industrial control systems, and game-playing applications.
+
+Classification Algorithms
+
+Classification is a supervised machine learning task that predicts a categorical output. Common classification algorithms include Logistic Regression, Decision Trees, Random Forests, Support Vector Machines, and Naive Bayes. Classification models can identify whether an email is spam, determine whether a transaction is fraudulent, or categorize customer feedback into predefined groups.
+
+Regression Algorithms
+
+Regression is a supervised machine learning technique used to predict continuous numerical values. Linear Regression, Polynomial Regression, Decision Tree Regression, and Random Forest Regression are commonly used methods. Regression models can estimate housing prices, predict sales revenue, forecast energy consumption, and analyze business performance using historical data.
+
+Model Training and Evaluation
+
+Machine learning model training involves providing data to an algorithm so it can learn underlying patterns. The dataset is commonly divided into training, validation, and testing subsets. Evaluation metrics such as accuracy, precision, recall, F1-score, mean absolute error, and root mean squared error help measure model performance. Proper evaluation helps determine whether a model generalizes to unseen data.
+
+Deep Learning
+
+Deep Learning is a specialized subset of Machine Learning that uses artificial neural networks containing multiple computational layers. These networks automatically learn increasingly complex representations from large datasets. Deep learning has achieved significant results in computer vision, natural language processing, speech recognition, autonomous systems, and generative artificial intelligence.
+
+Artificial Neural Networks
+
+Artificial Neural Networks are computational models inspired by the interconnected structure of biological neurons. They consist of input layers, hidden layers, and output layers. Each neuron processes incoming values using weights, biases, and activation functions. During training, the network adjusts its parameters to reduce prediction errors and improve its ability to recognize patterns.
+
+Convolutional Neural Networks
+
+Convolutional Neural Networks are deep learning architectures primarily designed for processing visual information. CNNs use convolution filters to identify local patterns such as edges, textures, shapes, and objects. Pooling layers reduce spatial dimensions while retaining important features. CNNs are widely used in facial recognition, object detection, medical imaging, and automated quality inspection.
+
+Recurrent Neural Networks
+
+Recurrent Neural Networks are neural architectures designed to process sequential information. They maintain information from previous time steps through recurrent connections, allowing them to model relationships in sequences. RNNs have been used for language modeling, speech recognition, and time-series forecasting. Long Short-Term Memory networks address some limitations of traditional RNNs.
+
+Transformers
+
+Transformers are neural network architectures that use attention mechanisms to understand relationships between different elements of an input sequence. Unlike traditional recurrent networks, transformers can process many sequence elements in parallel during training. They form the foundation of modern large language models and have transformed natural language processing, machine translation, text generation, and multimodal AI.
+
+Natural Language Processing
+
+Natural Language Processing is a field of Artificial Intelligence concerned with enabling computers to understand, interpret, and generate human language. NLP systems process written or spoken language through techniques such as tokenization, stemming, lemmatization, named entity recognition, sentiment analysis, and language modeling. NLP supports chatbots, search engines, translation systems, and intelligent document processing.
+
+Tokenization
+
+Tokenization is the process of breaking text into smaller units called tokens. Depending on the tokenizer, tokens may represent complete words, word fragments, punctuation marks, or individual characters. Language models process tokenized representations instead of directly understanding raw text. Tokenization affects model input length, computational requirements, and how efficiently text is represented.
+
+Word Embeddings
+
+Word embeddings represent words as numerical vectors in a multidimensional mathematical space. Words with similar meanings often have related vector representations. Embedding techniques help machine learning systems understand semantic relationships that cannot be captured effectively through simple keyword matching. Word embeddings are used in semantic search, document classification, recommendation systems, and language understanding.
+
+Sentence Embeddings
+
+Sentence embeddings convert complete sentences or text passages into dense numerical vectors. Unlike individual word embeddings, sentence embeddings aim to represent the overall semantic meaning of a text segment. Models such as Sentence Transformers generate these representations for semantic similarity, information retrieval, duplicate detection, and clustering applications.
+
+Large Language Models
+
+Large Language Models are advanced AI systems trained on extensive text datasets to understand and generate human language. They use transformer-based neural network architectures and learn statistical relationships between tokens. LLMs can answer questions, summarize documents, generate code, translate languages, and assist with reasoning tasks. Their performance depends on model architecture, training data, and inference configuration.
+
+Generative Artificial Intelligence
+
+Generative Artificial Intelligence refers to AI systems capable of producing new content based on patterns learned from training data. Generated content may include text, images, audio, video, and computer code. Generative AI models can create summaries, conversational responses, software implementations, and creative content. Large language models and diffusion models are examples of generative AI technologies.
+
+Prompt Engineering
+
+Prompt Engineering is the practice of designing effective instructions for generative AI models. A prompt may include a role, task description, background information, constraints, examples, and expected output format. Clear instructions help language models produce more relevant and structured responses. Prompt engineering is important in chatbots, document analysis, automated workflows, and AI-powered applications.
+
+Retrieval Augmented Generation
+
+Retrieval Augmented Generation, commonly called RAG, combines information retrieval with generative AI. Instead of depending entirely on knowledge learned during model training, a RAG system searches an external knowledge base for relevant information. Retrieved documents are supplied as contextual information to a language model, which generates an answer grounded in the retrieved content.
+
+RAG Architecture
+
+A typical RAG architecture contains a document ingestion pipeline, text chunking component, embedding model, vector database, retriever, prompt construction layer, and language model. Documents are processed and indexed before users submit questions. During inference, the system converts the query into an embedding, retrieves relevant document chunks, and provides those chunks to the language model as context.
+
+Document Ingestion
+
+Document ingestion is the process of importing information from external sources into a retrieval system. Common sources include PDF files, Word documents, text files, spreadsheets, websites, and databases. During ingestion, the system extracts text, cleans unnecessary content, identifies document metadata, and prepares the information for chunking and embedding generation.
+
+Text Chunking
+
+Text chunking divides large documents into smaller segments that can be independently processed and retrieved. Chunking helps maintain manageable context sizes and improves retrieval precision. Common approaches include fixed-size chunking, recursive character splitting, sentence-based splitting, and semantic chunking. The optimal chunk size depends on document structure, embedding model capabilities, and the intended retrieval task.
+
+Overlapping Chunks
+
+Overlapping chunking allows adjacent text segments to share a portion of their content. This technique reduces the possibility of losing important contextual information when a sentence or concept is divided across chunk boundaries. For example, a document may be divided into chunks containing 500 characters with an overlap of 100 characters. Overlap can improve contextual continuity but also increases storage requirements.
+
+Vector Databases
+
+A vector database is a specialized database designed to store and retrieve numerical vector representations of data. These vectors are commonly generated by machine learning embedding models. Vector databases support similarity searches that identify semantically related information even when the query and stored documents use different words. They are important components of modern semantic search and RAG architectures.
+
+ChromaDB
+
+ChromaDB is an open-source vector database designed for storing embeddings and performing similarity searches. It provides collections that organize records containing unique identifiers, documents, metadata, and vector embeddings. Developers can use ChromaDB to build semantic search applications, retrieval pipelines, recommendation systems, and retrieval augmented generation solutions.
+
+ChromaDB Collections
+
+A ChromaDB collection is a logical container used to organize related documents and their embeddings. Each collection stores records identified by unique IDs and can contain associated metadata. Developers can add, update, retrieve, query, and delete collection records. Collections also support configuration options that determine how vector similarity is calculated.
+
+ChromaDB Document Insertion
+
+Document insertion in ChromaDB involves providing unique identifiers, document text, and optionally precomputed embeddings and metadata. ChromaDB can generate embeddings automatically when an embedding function is configured for the collection. Each inserted record becomes searchable through vector similarity queries. The upsert operation inserts new records or updates existing records with matching identifiers.
+
+ChromaDB Similarity Search
+
+Similarity search in ChromaDB compares a query embedding against stored document embeddings to identify the nearest vectors. The database returns matching documents along with their identifiers, metadata, and distances. Search results are commonly ranked from the smallest distance to the largest distance. This enables applications to retrieve the most relevant information for a user's question.
+
+Cosine Similarity
+
+Cosine Similarity measures the similarity between two vectors by calculating the cosine of the angle between them. A value closer to 1 generally indicates greater directional similarity, while a value closer to 0 indicates weaker similarity. For normalized vectors, cosine similarity is commonly used to compare semantic embeddings. ChromaDB's cosine distance is calculated as one minus cosine similarity.
+
+Euclidean Distance
+
+Euclidean Distance measures the straight-line distance between two points in a multidimensional vector space. In vector search, it calculates how far apart two embedding vectors are. Smaller Euclidean distances indicate closer vectors under this metric. Euclidean distance is one of several distance metrics supported by vector search systems.
+
+Metadata Filtering
+
+Metadata filtering allows vector database queries to restrict results based on additional information associated with each document. Metadata may include document names, categories, dates, departments, authors, or document types. For example, a search application can retrieve relevant documents while restricting the results to a particular department or document category. This improves retrieval control and relevance.
+
+Top-K Retrieval
+
+Top-K retrieval is a search strategy that returns a fixed number of the nearest matching documents for a query. If K equals five, the retrieval system returns the five closest matching chunks based on the configured distance metric. Selecting an appropriate K value balances contextual coverage against unnecessary information. The optimal value depends on the complexity of the question and available context length.
+
+Similarity Threshold
+
+A similarity threshold defines a minimum relevance score required for a search result to be accepted. Results below the configured threshold can be excluded from the retrieved context. This helps prevent weakly related documents from being passed to a language model. Thresholds must be calibrated using representative queries because similarity scores vary across embedding models and datasets.
+
+Hybrid Search
+
+Hybrid Search combines semantic vector retrieval with traditional keyword-based retrieval. Semantic search identifies conceptually related content, while keyword search identifies exact terms and phrases. Combining both methods can improve retrieval performance, especially when queries contain technical terminology, product identifiers, names, or specific phrases. Hybrid retrieval systems often use rank fusion to combine results from different retrieval methods.
+
+Reranking
+
+Reranking is a retrieval optimization technique that evaluates an initial list of search results and rearranges them according to their relevance to the query. A retrieval system may first obtain twenty candidates using vector similarity and then use a cross-encoder model to identify the best five. Reranking improves the quality of retrieved context and can reduce irrelevant information in RAG applications.
+
+Knowledge Bases
+
+A knowledge base is an organized collection of information that can be searched and retrieved to answer questions. It may contain technical documentation, product manuals, company policies, legal documents, research papers, or customer support articles. Knowledge bases provide external information to AI applications and help organizations make their internal knowledge accessible through natural language interfaces.
+
+Semantic Search
+
+Semantic Search focuses on understanding the meaning and intent of a user's query rather than relying exclusively on exact keyword matches. It uses language models and vector embeddings to identify conceptually related content. For example, a search for "How can computers learn from experience?" may retrieve a document discussing machine learning even if the exact query words do not appear in the document.
+
+Information Retrieval
+
+Information Retrieval is the process of finding relevant information from a large collection of documents based on a user's information need. Traditional retrieval systems often use keyword matching, inverted indexes, and ranking algorithms such as BM25. Modern retrieval systems also use dense vector representations and neural ranking models to understand semantic relationships between queries and documents.
+
+Agentic Artificial Intelligence
+
+Agentic Artificial Intelligence refers to systems that can independently perform multiple steps toward achieving a defined objective. AI agents may plan tasks, select tools, retrieve information, evaluate intermediate results, and adjust their actions. Unlike a basic question-answering chatbot, an agentic system can execute structured workflows and interact with external services based on its assigned permissions.
+
+AI Agents
+
+An AI agent is a software system that uses an artificial intelligence model to perceive information, make decisions, and perform actions. Agents may use tools such as web search, database queries, APIs, calculators, and file processors. An agent receives an objective, determines the required steps, executes actions, and evaluates whether the objective has been achieved.
+
+Model Context Protocol
+
+Model Context Protocol, also known as MCP, is an open protocol that enables AI applications to connect with external tools, resources, and services through a standardized interface. MCP servers expose capabilities that compatible clients can discover and invoke. This architecture allows AI assistants to interact with databases, filesystems, APIs, and enterprise systems without requiring every integration to be implemented independently.
+
+Multi-Agent Systems
+
+A Multi-Agent System consists of multiple AI agents that collaborate or coordinate to complete complex tasks. Each agent may have a specialized responsibility, such as retrieving information, analyzing data, generating summaries, or validating outputs. A supervisor agent can assign tasks to individual agents and combine their results. Multi-agent architectures are useful for complex enterprise automation workflows.
+
+Self-Corrective RAG
+
+Self-Corrective RAG is an advanced retrieval architecture that evaluates the quality of retrieved information and generated responses. The system may assess document relevance, identify missing context, rewrite the search query, and perform additional retrieval when necessary. It can also validate whether the generated response is supported by the retrieved documents. These feedback mechanisms help improve answer reliability.
+
+Evaluation of RAG Systems
+
+Evaluating a RAG system requires measuring both retrieval quality and answer generation quality. Retrieval metrics include Precision at K, Recall at K, Mean Reciprocal Rank, and Normalized Discounted Cumulative Gain. Generation metrics examine factual accuracy, relevance, completeness, and groundedness. Evaluation datasets should contain representative questions, expected answers, and relevant source documents.
+
